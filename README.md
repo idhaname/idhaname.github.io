@@ -1,1 +1,1 @@
-# blog
+# Soul-Blaze rod Studios' Blog
