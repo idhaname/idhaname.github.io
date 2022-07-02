@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "GH=1 yarn docs:build && bash scripts/deploy-gh.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idhaname/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idhaname/blog/issues"
+  },
+  "homepage": "https://github.com/idhaname/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
