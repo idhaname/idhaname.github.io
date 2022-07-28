@@ -12,3 +12,7 @@ img
     width: 16px;
     height: 16px;
 }
+body
+{
+    font-size: 120%;
+}
